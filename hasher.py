@@ -11,9 +11,6 @@ def print_banner():
     print (" syntax  ./hasher.py filename.txt")
     return
 
-def makesum(filename):
-    print (filename)
-
 def hashit(filename):
     try :
         f =  open(filename,'rb')
